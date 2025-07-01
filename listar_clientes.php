@@ -50,7 +50,7 @@ function ocultarCPF($cpf) {
         }
         body {
             background-image: url('sistema.png');
-            background-size:1430px 1000px;
+            background-size:auto;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -72,7 +72,7 @@ function ocultarCPF($cpf) {
             background: transparent;
             padding: 35px;
             border-radius: 15px;
-            border: 3px solid #ccc;
+            
         }
         table {
             width: 100%;

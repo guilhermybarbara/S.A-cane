@@ -51,20 +51,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         body {
             background-image: url('sistema.png');
-            background-size:1430px 1000px;
+            background-size:auto;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 10;
+            padding: 10;
         }
         .header {
             text-align: center;
             padding: 20px;
             background-color: transparent;
             color: black;
-            font-size: 24px;
+            font-size: 30px;
             margin-top: 20px;
         }
         .container {
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         input[type="email"],
         input[type="password"] {
-            width: 100%;
+            width: 95%;
             padding: 8px;
             margin-top: 5px;
             border: 1px solid #ccc;
@@ -96,9 +96,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             background-color: transparent;
             color: black;
             padding: 10px;
-            margin-top: 15px;
+            margin-top: 20px;
             border: none;
-            width: 100%;
+            width: 99.5%;
             border-radius: 4px;
             cursor: pointer;
             border: 3px solid #ccc;

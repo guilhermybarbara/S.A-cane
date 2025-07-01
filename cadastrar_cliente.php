@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         body {
             background-image: url('sistema.png');
-            background-size:1430px 1000px;
+            background-size:auto;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;

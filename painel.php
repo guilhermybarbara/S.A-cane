@@ -26,7 +26,7 @@ if (!isset($_SESSION['usuario_id'])) {
         
         body {
             background-image: url('sistema.png');
-            background-size:1430px 1000px;
+            background-size:auto;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
