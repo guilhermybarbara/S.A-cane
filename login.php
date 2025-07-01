@@ -46,23 +46,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #121212;
             font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url('sistema.png');
+            background-size:1430px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
         .header {
             text-align: center;
             padding: 20px;
-            background-color: #007bff;
-            color: white;
+            background-color: transparent;
+            color: black;
             font-size: 24px;
+            margin-top: 20px;
         }
         .container {
             max-width: 400px;
             margin: 40px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            background: transparent;
+            padding: 30px;
+            border-radius: 50px;
+            border: 3px solid #ccc;
         }
         h2 {
             text-align: center;
@@ -82,14 +93,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             border-radius: 4px;
         }
         button {
-            background-color: #28a745;
-            color: white;
+            background-color: transparent;
+            color: black;
             padding: 10px;
             margin-top: 15px;
             border: none;
             width: 100%;
             border-radius: 4px;
             cursor: pointer;
+            border: 3px solid #ccc;
         }
         button:hover {
             background-color: #218838;
@@ -102,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             display: block;
             text-align: center;
             margin-top: 15px;
-            color: #007bff;
+            color: black;
             text-decoration: none;
         }
         nav a:hover {

@@ -42,16 +42,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f2f2f2;
+            background: #121212;
             padding: 20px;
         }
+        body {
+            background-image: url('sistema.png');
+            background-size:1430px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 60;
+            padding: 60;
+        }
         .container {
-            background: white;
-            max-width: 500px;
+            background: transparent;
+            max-width: 400px;
             margin: auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            border-radius: 50px;
+             border: 3px solid #ccc;
         }
         h2, .header {
             text-align: center;
@@ -65,25 +75,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         input[type="text"], input[type="email"], input[type="password"] {
             width: 100%;
             padding: 10px;
-            margin-top: 5px;
+            margin-top: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         button {
-            margin-top: 15px;
-            background: #007bff;
-            color: white;
+            margin-top: 20px;
+            background: transparent;
+            color: black;
             border: none;
             padding: 10px 15px;
             border-radius: 4px;
             cursor: pointer;
             width: 100%;
+             border: 3px solid #ccc;
         }
         button:hover {
-            background: #0069d9;
+            background: green;
         }
         .success {
-            background: #d4edda;
+            background: transparent;
             color: #155724;
             padding: 10px;
             border-radius: 4px;
@@ -97,8 +108,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         nav a {
             display: block;
             text-align: center;
-            margin-top: 15px;
-            color: #007bff;
+            margin-top: 20px;
+            color: black;
         }
         nav a:hover {
             text-decoration: underline;

@@ -14,11 +14,11 @@ if (!isset($_SESSION['usuario_id'])) {
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
         body {
-            background-color: white;
+            background-color: black;
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: black; /* cor azul clarinha, suave */
+            background-color: #121212; /* cor azul clarinha, suave */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0; 
@@ -26,18 +26,18 @@ if (!isset($_SESSION['usuario_id'])) {
         
         body {
             background-image: url('sistema.png');
-            background-size:1000px 990px;
+            background-size:1430px 1000px;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-    }
+        }
 
         .header {
-            background-color: black;
-            color: white;
+            background-color: transparent;
+            color: black;
             padding: 20px;
             text-align: center;
             font-size: 24px;
@@ -61,8 +61,8 @@ if (!isset($_SESSION['usuario_id'])) {
             display: inline-block;
             margin: 10px;
             padding: 12px 20px;
-            background-color: #28a745;
-            color: white;
+            border: 3px solid #ccc;;
+            color: black;
             border-radius: 5px;
             text-decoration: none;
             transition: background-color 0.3s ease;
@@ -71,7 +71,7 @@ if (!isset($_SESSION['usuario_id'])) {
             background-color: #218838;
         }
         nav a.logout {
-            background-color: #dc3545;
+            border: 3px solid #ccc;
         }
         nav a.logout:hover {
             background-color: #c82333;
@@ -88,7 +88,7 @@ if (!isset($_SESSION['usuario_id'])) {
         <nav>
             <a href="listar_clientes.php">📋 Listar Clientes</a>
             <a href="cadastrar_cliente.php">➕ Cadastrar Cliente</a>
-            <a href="importar_clientes.php">⬆ Importar</a>
+            <a href="importar.php">⬆ Importar</a>
             <a href="logout.php" class="logout">🚪 Sair</a>
         </nav>
     </div>

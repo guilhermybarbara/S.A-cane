@@ -15,17 +15,26 @@ if (!isset($_SESSION['usuario_id'])) {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
+            background-color: #121212;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+        }body {
+            background-image: url('sistema.png');
+            background-size:1430px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            background: #fff;
+            background: transparent;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 3px solid #ccc;
             max-width: 500px;
             width: 100%;
         }
@@ -44,22 +53,23 @@ if (!isset($_SESSION['usuario_id'])) {
             margin-bottom: 15px;
         }
         button {
-            background-color: #007bff;
-            color: white;
+            background-color: transparent;
+            color: black;
             padding: 10px;
             border: none;
             border-radius: 5px;
             width: 100%;
             cursor: pointer;
+            border: 3px solid #ccc;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: green;
         }
         nav a {
             display: block;
             text-align: center;
             margin-top: 15px;
-            color: #007bff;
+            color: black;
             text-decoration: none;
         }
         nav a:hover {

@@ -51,21 +51,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f8f9fa;
+            background: #121212;
             margin: 0;
-            padding: 20px;
+            padding: 0px;
+        }
+        body {
+            background-image: url('sistema.png');
+            background-size:1430px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 60;
+            padding: 60;
         }
         .container {
             max-width: 600px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
+            background: transparent;
+            padding: 30px;
+            border-radius: 50px;
             margin: auto;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            
         }
         h2, .header {
             text-align: center;
-            color: #333;
+            color: black;
         }
         label {
             margin-top: 10px;
@@ -76,38 +86,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             width: 100%;
             padding: 10px;
             margin-top: 4px;
-            border: 1px solid #ccc;
+            border: 3px solid #ccc;
             border-radius: 4px;
+            background-color: transparent;
+            color: #000;
         }
         button {
-            background: #28a745;
-            color: white;
+            background: transparent;
+            color: black;
             border: none;
-            padding: 10px 16px;
-            margin-top: 15px;
+            padding: 15px 30px;
+            margin-top: 20px;
             cursor: pointer;
-            border-radius: 4px;
-            width: 100%;
+            border-radius: 10px;
+            width: 104%;
+            border: 3px solid #ccc;
         }
         button:hover {
-            background: #218838;
+            background: green;
+            border: 3px solid #ccc;
         }
         .success {
-            background: #d4edda;
+            background: transparent;
             color: #155724;
-            padding: 10px;
+            padding: 0px;
             border-radius: 4px;
         }
         .error {
             background: #f8d7da;
             color: #721c24;
-            padding: 10px;
+            padding: 0px;
             border-radius: 4px;
         }
         a {
             display: block;
             margin-top: 15px;
-            color: #007bff;
+            color: black;
             text-align: center;
         }
         a:hover {

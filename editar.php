@@ -76,16 +76,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f0f4f7;
+            background: #121212;
             padding: 20px;
         }
+        body {
+            background-image: url('sistema.png');
+            background-size:1430px 1000px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20;
+        }
         .container {
-            background: white;
+            background: transparent;
             max-width: 600px;
             margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            border-radius: 50px;
+            border: 3px solid #ccc;
         }
         .header {
             text-align: center;
@@ -96,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         label {
             font-weight: bold;
             display: block;
-            margin-top: 10px;
+            margin-top: 6px;
         }
         input[type="text"],
         input[type="email"] {
@@ -107,14 +117,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             border: 1px solid #ccc;
         }
         button {
-            background: #28a745;
-            color: white;
+            background: transparent;
+            color: black;
             border: none;
             padding: 10px;
             width: 100%;
             border-radius: 5px;
             margin-top: 15px;
             cursor: pointer;
+            border: 3px solid #ccc;
         }
         button:hover {
             background: #218838;
@@ -136,8 +147,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         a {
             display: block;
             text-align: center;
-            margin-top: 10px;
-            color: #007bff;
+            margin-top: 20px;
+            color: black;
         }
         a:hover {
             text-decoration: underline;
