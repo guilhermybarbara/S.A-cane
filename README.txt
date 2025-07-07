@@ -1,1 +1,1 @@
-Sistema CRM - Instalação e uso
+Sistema - Instalação e uso
